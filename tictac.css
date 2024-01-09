@@ -1,0 +1,116 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: lightgoldenrodyellow;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 34px;
+    margin-top: 20px;
+    color:darkorange;
+}
+
+.tic-tac-toe {
+    display: inline-block;
+    border: 2px solid #b9b2b2;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: #5D4157; 
+    background: -webkit-linear-gradient(to right, #A8CABA, #5D4157);
+    background: linear-gradient(to right, #A8CABA, #5D4157); 
+
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #b9b2b2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.cell:hover {
+    background-color: #e0e0e0;
+}
+
+.reset-button {
+    font-size: 28px;
+    margin: 10px 0;
+    padding: 5px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.restart-button {
+    font-size: 28px;
+    margin: 10px 0;
+    padding: 5px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.reset-button:hover{
+    color: red;
+}
+.restart-button:hover{
+    color: red;
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #d9a7c7; 
+    background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7); 
+    background: linear-gradient(to right, #fffcdc, #d9a7c7);
+}
+
+#container {
+    max-width: 300px;
+    padding: 16px;
+    background: #d9a7c7;
+    background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  
+    background: linear-gradient(to right, #fffcdc, #d9a7c7); 
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.submit:hover {
+    opacity: 0.8;
+}
+
+#main{
+    display:none;
+}
